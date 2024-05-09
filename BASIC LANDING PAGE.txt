@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JioTV UI</title>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/remote.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 200vh;
+            width: 100vw;
+            background-color: rgba(212, 212, 212, 0.76);
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: rgba(212, 212, 212, 0.76);
+            box-shadow: 1px 1px 20px 1px;
+        }
+
+        .right {
+            width: 400px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .title {
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgba(0, 0, 0, 0.747);
+            margin-left: 10px;
+        }
+
+        p {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .posters {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .apps {
+
+            height: fit-content;
+            width: 98vw;
+            background-color: white;
+            margin: 15px;
+            margin-top: 50px;
+            border-radius: 10px;
+        }
+
+        .row {
+
+            display: flex;
+            justify-content: space-around;
+            margin: 15px;
+            padding: 10px;
+        }
+
+        .row img {
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.623) 1px 1px 10px 1px;
+        }
+        .row img:hover{
+            transform: scale(1.1);
+        }
+        .nav i:hover,.nav img:hover,.posters img:hover{
+            transform: scale(1.1);
+        }
+        .posters img {
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <i class="fa fa-microphone" style="font-size:25px"></i>
+        <div class="right">
+            <i class="fa fa-bell" style="font-size:24px"></i>
+            <img src="https://static.vecteezy.com/system/resources/previews/009/687/354/original/sign-of-the-remote-symbol-is-isolated-on-a-white-background-remote-icon-color-editable-vector.jpg"
+                alt="" height="50px" width="50px">
+            <i class="fa fa-user" style="font-size:24px"></i>
+            <i class="fa fa-gear" style="font-size:24px"></i>
+            <p>12:12PM</p>
+            <img src="https://i.pinimg.com/736x/e0/3a/6f/e03a6f5f0e59790428b235f1aba3c4f0.jpg" alt="" height=24 px
+                width="24px">
+        </div>
+    </div>
+    <p class="title">JioTV+</p>
+    <div class="posters">
+        <a href="https://youtu.be/Ke1Y3P9D0Bc?si=RL8GKiakG4PpPFM3"><img
+                src="https://i.pinimg.com/736x/43/06/0c/43060c1ebb834938dea4f238f9632974.jpg" alt="" width="360"
+                height="550"></a>
+        <a href="https://youtu.be/G4g2Kg6wXBc?si=BYgq_ynfE0xJr6YK"><img
+                src="https://media-cache.cinematerial.com/p/500x/d6pdnafw/junga-indian-movie-poster.jpg?v=1534591591"
+                alt="" width="360" height="550"></a>
+        <a href="https://youtu.be/Po3jStA673E?si=fh1SJloPodYnLF67"><img
+                src="https://akm-img-a-in.tosshub.com/indiatoday/styles/medium_crop_simple/public/2023-09/f6tsfwpa4aa_gtg.jpg?VersionId=3YZPKlG4indGck4QqrfIVfwDOiJQjaZM&size=750:*"
+                alt="" width="360" height="550"></a>
+        <a href="https://youtu.be/JfVOs4VSpmA?si=x3leEx2pbaakmdSy"><img
+                src="https://rukminim2.flixcart.com/image/850/1000/kx7vc7k0/poster/z/2/g/medium-spiderman-no-way-home-trending-poster-12x18-asstore-spd22-original-imag9prdyvuhgdbz.jpeg?q=90&crop=false"
+                alt="" width="360" height="550"></a>
+        <a href="https://youtu.be/ULglxeiqjnA?si=olXic_Saf4fBTkE-"><img
+                src="https://m.media-amazon.com/images/M/MV5BNzk4MWIwYTEtZmI1ZC00OWJlLTk1OTAtMWM2OTA2ZWI2MGViXkEyXkFqcGdeQXVyMTU3NDgzNzM4._V1_.jpg"
+                alt="" width="360" height="550"></a>
+    </div>
+    <div class="apps">
+        <div class="row">
+            <a href="https://www.jiotv.com/"><img
+                    src="https://www.watchinuk.co.uk/wp-content/uploads/2023/07/jio-tv-on-firestick-300x167.webp" alt=""
+                    width="400px" height="240"></a>
+            <a href="https://www.jiosaavn.com/"><img
+                    src="https://support.musicgateway.com/wp-content/uploads/2021/02/Copy-of-800-x-500-Blog-Post-89.png"
+                    alt="" width="400px" height="240"></a>
+            <a href="https://www.jiocinema.com/"><img
+                    src="https://assets.mspimages.in/gear/wp-content/uploads/2023/02/Jio-Cinema.jpg" alt=""
+                    width="400px" height="240"></a>
+            <a href="https://www.jio.com/jcms/apps/myjio/"><img
+                    src="https://assets.mspimages.in/gear/wp-content/uploads/2023/04/JioStore.jpg" alt="" width="400px"
+                    height="240"></a>
+        </div>
+        <div class="row">
+            <a href="https://www.hotstar.com/in"><img
+                    src="https://entrackr.com/storage/2021/12/Disney-hotstar.jpg" alt=""
+                    width="400px" height="240"></a>
+            <a href="https://www.youtube.com/"><img
+                    src="https://play-lh.googleusercontent.com/vA4tG0v4aasE7oIvRIvTkOYTwom07DfqHdUPr6k7jmrDwy_qA_SonqZkw6KX0OXKAdk"
+                    alt="" width="400px" height="240"></a>
+            <a href="https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root"><img
+                    src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Amazon_Prime_Video_blue_logo_2.svg" alt=""
+                    width="400px" height="240"></a>
+            <a href="https://www.sunnxt.com/"><img
+                    src="https://telecomtalk.info/wp-content/uploads/2019/01/vodafone-idea-sun-nxt-content.png" alt="" width="400px"
+                    height="240"></a>
+        </div>
+        <div class="row">
+            <a href="https://www.aha.video/"><img
+                    src="https://i0.wp.com/www.enterpriseappstoday.com/wp-content/uploads/2022/12/Aha-Statistics.jpg?fit=1920%2C1080&ssl=1" alt=""
+                    width="400px" height="240"></a>
+            <a href="https://www.instagram.com/"><img
+                    src="https://info.mssmedia.com/hubfs/Instagram%20Advertising.jpg"
+                    alt="" width="400px" height="240"></a>
+            <a href="https://www.apple.com/in/apple-tv-4k/"><img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQMAAADCCAMAAAB6zFdcAAAAb1BMVEUAAAD///8EBAT8/Pzp6emBgYHm5uZVVVX5+fnb29ttbW2zs7PNzc1cXFy9vb2np6c4ODg+Pj5JSUlnZ2czMzN2dnZERESQkJDy8vItLS0nJyfBwcGqqqqXl5dMTEygoKAfHx8SEhLS0tIbGxuIiIh3rT3LAAADUklEQVR4nO3a23aiMBiG4fwB2YiK1rorWrX1/q9xkqA1ETrTg1EX9H0OupCGruQjhCRWKQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAUlq7n8+uxrOl49+ewSKRyS/PoBSR3c05/bsiWUkUyfKmH2g1LYe/pm+8ZRLJqNncRAbPqM4TaNsNZL0JMtD2UYgvGWh3onFdLzqJrh/6kUgyM4deq9wHm4F2h7olAt2TECytqnylL8e+RBZBucaVnY6grvzboiwHG3c4W02q7fB4LbEriiKTj8I5vBWTWfgXjttJ2u1u4DpyuTZvRMmq4XIwEicefN3cxH6O6tMyMx+3weVqKPL6nLr/N1ptctvG6NLOqP6xvfSRlzR9j2X/nlpHtZNYexfbMWTypKr/L9rd6HMEtvmRyyCLZFx3BNfg+PpunGYy9y9/tSW7Tau9tMnmfikvA/URzqVXkjyssveyyVozWASF/AyGkh29EPLG1Lp7Bq0RjMJCfgZq7Qe0lKjrI6JSkx90gzCDUj7U1yyibJtad03eFkE0DRsWZPAiZlV1pmMzQnY+g6R1RDyEhYIMzKhYXg6HdkTsaQabb/uBtkNIcj4yk4NV9yNofxZk/JdnQX1mktbLx4NEbw+u7z1UrRlsw0JhBmYcndST7JVUj6zrvexaM8imQaGbDMayrh+FXIKpVFeNWzOQ/OCPdTcZuLW06Qfv/tqhw47rtggiSfxVQJiBNp3HTaK2su/BiKi+mSTZhdPLtcxtP3jNZOZO92FENLcxPS8VGx3B2x2q99K8i0amB5jJQdXxHaSatgNbMwMTi//iT+QUZjCU2E4OejEi2rf8WJpLx8if/2kzM9yHV5mF0/uhF3NEVbehaHsU5spr4CRcSJoHYCvlIAym4+xOkuUaH7kNpcL7tdszrJdJX49/KnEebR5e03sx7/lMrvuJLoT8pkws8fzwOV1e+0be2GToMnNv525ESIrdrnJHebBmMgVSczrL/L2Ck/RjRLx63Y6Kukmfp6patRQo8iQZebMEvTo9qG4P8s/Rvb1AH14KX/T5q8RvvlRVzf/R0fU1ffOTFt18I32vqgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKB7/gCmRxa1GXthbgAAAABJRU5ErkJggg==" alt=""
+                    width="400px" height="240"></a>
+            <a href="https://gaana.com/"><img
+                    src="https://inc42.com/wp-content/uploads/2019/12/Untitled-design-2019-12-23T205134.732.jpg" alt="" width="400px"
+                    height="240"></a>
+        </div>
+        <div class="row">
+            <a href="https://www.netflix.com/in/"><img
+                    src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202307/netflix-sixteen_nine.jpg?size=948:533" alt=""
+                    width="400px" height="240"></a>
+            <a href="https://www.zee5.com/"><img
+                    src="https://s3images.zee5.com/wp-content/uploads/sites/7/2022/06/abc.jpg"
+                    alt="" width="400px" height="240"></a>
+            <a href="https://www.sonyliv.com/"><img
+                    src="https://assets.mspimages.in/gear/wp-content/uploads/2021/09/sony-liv.jpg" alt=""
+                    width="400px" height="240"></a>
+            <a href="https://www.vootkids.com/"><img
+                    src="https://assets.mspimages.in/gear/wp-content/uploads/2023/07/Voot-Kids.jpg" alt="" width="400px"
+                    height="240"></a>
+        </div>
+    </div>
+</body>
+
+</html>
